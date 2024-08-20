@@ -10,7 +10,14 @@ export default function Navbar() {
         height={130}
         alt="Cursed Curiosities Logo"
       />
-      <h1 className="text-5xl mx-auto">Cursed Curiosities</h1>
+      <div className="mx-auto">
+        <Image
+          src="/Header.png"
+          width={500}
+          height={500}
+          alt="Cursed Curiosities"
+        />
+      </div>
       <div className="text-right text-xl">
         <button className="p-4">Sign In</button>
         <button className="p-4">Sign Up</button>
