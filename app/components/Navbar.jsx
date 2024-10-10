@@ -18,9 +18,13 @@ export default function Navbar() {
           alt="Cursed Curiosities"
         />
       </div>
-      <div className="text-right text-xl">
-        <button className="p-4">Sign In</button>
-        <button className="p-4">Sign Up</button>
+      <div className="text-right text-xl gap-2">
+        <button className="p-2 bg-amber-500/30 mx-2 rounded-md hover:bg-amber-500/50">
+          Sign In
+        </button>
+        <button className="p-2 bg-amber-500/30 mx-2 rounded-md hover:bg-amber-500/50">
+          Sign Up
+        </button>
       </div>
     </div>
   );

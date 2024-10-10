@@ -5,23 +5,23 @@ import { MdOutlineDateRange } from "react-icons/md";
 export default function Artifact() {
   return (
     <div className="pl-8 mb-10 w-full">
-      <div className="flex justify-between mb-4">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between mb-4 w-full">
         <Image
           src="/TerracottaArmy.jpg"
-          width={500}
-          height={500}
+          width={375}
+          height={375}
           alt="Terracotta Army"
         />
         <Image
           src="/TerracottaArmy2.jpg"
-          width={500}
-          height={500}
+          width={375}
+          height={375}
           alt="Terracotta Army"
         />
         <Image
           src="/TerracottaArmy1.jpg"
-          width={500}
-          height={500}
+          width={375}
+          height={375}
           alt="Terracotta Army"
         />
       </div>
@@ -42,11 +42,11 @@ export default function Artifact() {
         Terracotta Warriors and Horses in Xi'an, Shaanxi Province, China.
       </p>
       <div className="flex gap-8">
-        <p className="flex items-center gap-2 px-2 bg-zinc-700 rounded-lg">
+        <p className="flex items-center gap-2 px-2 bg-zinc-800 rounded-lg">
           <BiCurrentLocation />
           Xi’an, China
         </p>
-        <p className="flex items-center gap-2 px-2 bg-zinc-700 rounded-lg">
+        <p className="flex items-center gap-2 px-2 bg-zinc-800 rounded-lg">
           <MdOutlineDateRange />
           210-209 BCE
         </p>
