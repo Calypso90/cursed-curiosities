@@ -3,7 +3,7 @@ import artifacts from "../lib/ItemArray.js";
 
 export default function SideMeu() {
   return (
-    <div className="flex flex-col items-center gap-4 px-8 py-2 mr-8 bg-zinc-900 rounded-md">
+    <div className="hidden lg:flex flex-col items-center gap-4 px-8 py-2 mr-8 bg-zinc-900 rounded-md">
       <h3 className="text-xl text-center">Explore Other Artifacts</h3>
       {artifacts.map((artifact) => (
         <p

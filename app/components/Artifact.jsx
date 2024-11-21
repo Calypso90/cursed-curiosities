@@ -5,25 +5,34 @@ import { MdOutlineDateRange } from "react-icons/md";
 export default function Artifact() {
   return (
     <div className="pl-8 mb-10 w-full">
-      <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between mb-4 w-full">
-        <Image
-          src="/TerracottaArmy.jpg"
-          width={375}
-          height={375}
-          alt="Terracotta Army"
-        />
-        <Image
-          src="/TerracottaArmy2.jpg"
-          width={375}
-          height={375}
-          alt="Terracotta Army"
-        />
-        <Image
-          src="/TerracottaArmy1.jpg"
-          width={375}
-          height={375}
-          alt="Terracotta Army"
-        />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4 w-full">
+        <div className="w-full h-0 pb-[100%] relative">
+          <Image
+            src="/TerracottaArmy.jpg"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover rounded-md"
+            alt="Terracotta Army"
+          />
+        </div>
+        <div className="w-full h-0 pb-[100%] relative">
+          <Image
+            src="/TerracottaArmy2.jpg"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover rounded-md"
+            alt="Terracotta Army"
+          />
+        </div>
+        <div className="w-full h-0 pb-[100%] relative">
+          <Image
+            src="/TerracottaArmy1.jpg"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover rounded-md"
+            alt="Terracotta Army"
+          />
+        </div>
       </div>
       <h1 className="text-3xl mb-4">The Terracotta Army</h1>
       <p className=" mb-4">
